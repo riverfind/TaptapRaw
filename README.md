@@ -4,7 +4,7 @@ This is a cli tool which aim to use deepseek easily in terminal.
 
 ## Startup Setting
 
-1. Create a powershell script and add it into your environment path
+1. Create a powershell script call "taptap.ps1" in the same directory of the fold downloaded and add it into your environment path
 ```pwsh
 $basepath = Join-Path -Path $PSScriptRoot -ChildPath "TaptapRaw"
 $activate = Join-Path -Path $basepath -ChildPath ".venv/Scripts/python"
