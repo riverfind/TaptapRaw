@@ -43,6 +43,7 @@ For this script self using, there are "type", "oneshot".
 - Object Name (e.g. "chat"): you can add a profile yourself and the object name is the profile name. The first parameter of your command is the profile name. Taptap will load profile according to the profile name.
 - **type**: Currently, this script only support deepseek. Therefore, just fill DPSK.
 - **oneshot**: *True* is for just getting one-time response.
+Other parameters are required by Deepseek. You can refer to https://api-docs.deepseek.com/guides to set them.
 
 ## Usage
 ```pwsh
