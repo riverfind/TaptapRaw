@@ -46,7 +46,7 @@ For this script self using, there are "type", "oneshot".
 
 ## Usage
 ```pwsh
-taptap [profile name] # if the profile's oneshot is false
+taptap [profile name] # if the profile's oneshot is false (INPUT exit will exit the chat)
 
 taptap [profile name] [message you send to the model] # if the profile's oneshot is true
 ```
